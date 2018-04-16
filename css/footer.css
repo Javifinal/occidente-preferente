@@ -1,14 +1,10 @@
 #footer
 	{
-		position: relative;
+		clear: both;
 		text-align: center;
 		background-color: grey;
 		width: 100%;
 		height: 200px;
-	}
-.container
-	{
-
 	}
 .container h2{
 	font-size: 40px;
@@ -53,5 +49,17 @@
 	ul.contact li a{
 		text-decoration: none;
 	}
-
-	
+.free{
+  border: 0.5px solid #BDBDBD;
+  width: 300px;
+  margin-right: 20px;
+  background-color: #F2F2F2;
+  text-align: center;
+  }
+.pro{
+  border: 0.5px solid #BDBDBD;
+  width: 300px;
+  margin-right: 20px;
+  background-color: #F2F2F2;
+  text-align: center;
+  }
