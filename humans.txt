@@ -1,0 +1,22 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    <name>  --..--  <role>  --..--  <social.net>  
+    								
+# THANKS
+    <name>  --..--  <social.net>
+
+# TECHNOLOGY COLOPHON
+    Standards:
+    Components:
+    Software:
+
+# SITE
+    <Version>   <Create> 
+    <vX.XX.XXX> <YYYY/MM/DD> 
+
+    <Version>   <Last update> 
+
+
+/* Nota: Mira http://humanstxt.org/ES */
