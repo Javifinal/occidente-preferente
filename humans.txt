@@ -3,6 +3,7 @@
 
 # TEAM
     <name>  --..--  <role>  --..--  <social.net>  
+    Javier Lobo     Programador     @javixu_lobo  https://www.linkedin.com/in/fcojavierlobo/	
     								
 # THANKS
     <name>  --..--  <social.net>
