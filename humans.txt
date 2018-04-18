@@ -8,15 +8,13 @@
     <name>  --..--  <social.net>
 
 # TECHNOLOGY COLOPHON
-    Standards:
-    Components:
-    Software:
+    Standards: HTML5, CSS3,..
+    Components: Normalize.css, Skeleton 2.0.4
+    Software: Sublime, git, github.
 
 # SITE
     <Version>   <Create> 
     <vX.XX.XXX> <YYYY/MM/DD> 
-
-    <Version>   <Last update> 
-
+    v0.00.01    2018/04/16
 
 /* Nota: Mira http://humanstxt.org/ES */
