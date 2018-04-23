@@ -118,23 +118,42 @@ header {
 
 #principal-body {
 	overflow: auto;
+	padding-left: .5em;
+	padding-right: .5em;
 }
 
-#producto {
+.producto {
 	background-color: cyan;
+	border: 1px solid black;
+	padding-left: .5em;
+	padding-right: .5em;
 }
 
-#producto > div {
-	margin-left: 15px;
-	margin-right: 15px;
-}
-
-#producto > div h5 {
+.producto > h5 {
 	text-align: center;
 }
 
-#producto > div img {
+.producto > div {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.img-producto, .desc-producto {
+	margin-left: .5em;
+	margin-right: .5em;
+}
+
+.img-producto {
+	box-sizing: border-box;
+	width: 33%; 
+}
+
+.img-producto > img {
 	width: 100%;
+}
+
+.desc-producto {
+	text-align: justify;
 }
 
 /*********************************************************************************/
@@ -153,8 +172,53 @@ header {
 /* MEDIA QUERIES                                                         */
 /*********************************************************************************/
 
-@media (min-width: 550px) {
-	.container {
-		width: auto;	
+/* Larger than mobile */
+@media (max-width: 399px) {
+	.img-producto {
+		width: auto;
 	}
+}
+
+@media (min-width: 400px) {
+	.container {
+		width: auto;
+	}
+
+	.img-producto {
+		margin-right: 1em;
+	}
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+	#productos {
+
+	}
+
+	.producto {
+		height: 100%;
+	}
+
+	.img-producto {
+		width: 100%;
+	}
+
+	.desc-producto {
+		width: 100%;
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+
 }
