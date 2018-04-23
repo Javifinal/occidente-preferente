@@ -29,34 +29,60 @@
 </head>
 <body>
 
-  <header id="header">
-    <div class="container">
-      
+  <div class="header">
+    <div id="two columns nav-wrapper">
+      <div class="container"> 
+
+        <!-- Logo -->
+        <div id="logo">
+          <h1><a href="#">Occidente-Preferente<br>
+          Desarrollo Web</a></h1>
+        </div>
+
+        <!-- Menu -->
+        <nav id="nav">
+          <ul>
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="about.html" target="_blank">Sobre Nosotros</a></li>
+            <li><a href="productos.html" target="_blank">Productos</a></li>
+            <li><a href="galeria.html" target="_blank">Galeria</a></li>
+            <li><a href="contacto.html" target="_blank">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Slogan -->
+      <div class="slogan"> 
+        <div id="nombre_slogan" class="opacidad">
+          <h1>NOMBRE EMPRESA</h1>
+          <br>
+          <br>
+          <h2>SLOGAN</h2>
+        </div>
+      </div>
     </div>
-  </header> <!-- End id header -->
 
-	<div id="principal-body">
-    <div id="productos" class="container">
+	<div id="principal-body" class="container">
+    <div id="productos" class="row">
 
-      <div class="four columns producto">
+      <div class="one-third column producto">
         <h5>Producto #1</h5>
-        <div class="container">
+        <div class="">
 
           <div class="one-third columns img-producto">
             <img src="img/producto1.jpg" alt="Producto 1">
           </div>
 
           <div class="desc-producto">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptate perferendis, corporis ut harum architecto! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi illo corporis illum vitae magnam. Libero nesciunt quisquam officiis, obcaecati veniam explicabo, soluta recusandae, illo mollitia dolorem repellendus accusantium quae facilis.
-            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptate perferendis, corporis ut harum architecto! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi illo corporis illum vitae magnam. Libero nesciunt quisquam officiis, obcaecati veniam explicabo, soluta recusandae, illo mollitia dolorem repellendus accusantium quae facilis.</p>
           </div>
 
         </div>
       </div>
 
-      <div class="four columns producto">
+      <div class="one-third column producto">
         <h5>Producto #2</h5>
-        <div class="container">
+        <div class="">
 
           <div class="one-third columns img-producto">
             <img src="img/producto2.jpg" alt="Producto 2">
@@ -69,9 +95,9 @@
         </div>
       </div>
 
-      <div class="four columns producto">
+      <div class="one-third column producto">
         <h5>Producto #3</h5>
-        <div class="container">
+        <div class="">
           <div class="one-third columns img-producto">          
             <img src="img/producto3.jpg" alt="Producto 3">
           </div>
@@ -82,10 +108,12 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="four columns producto">
+    <div id="productos" class="row">
+      <div class="one-third column producto">
         <h5>Producto #4</h5>
-        <div class="container">
+        <div class="">
 
           <div class="one-third columns img-producto">
             <img src="img/producto3.jpg" alt="Producto 3">
@@ -97,9 +125,9 @@
         </div>
       </div>
 
-      <div class="four columns producto">
+      <div class="one-third column producto">
         <h5>Producto #4</h5>
-        <div class="container">
+        <div class="">
 
           <div class="one-third columns img-producto">
             <img src="img/producto3.jpg" alt="Producto 3">
@@ -112,9 +140,9 @@
         </div>
       </div>
 
-      <div class="four columns producto">
+      <div class="one-third column producto">
         <h5>Producto #4</h5>
-        <div class="container">
+        <div class="">
 
           <div class="one-third columns img-producto">
             <img src="img/producto3.jpg" alt="Producto 3">
@@ -130,9 +158,38 @@
     </div>
 	</div> <!-- End id cuerpo_principal -->
 	
-  <div id="footer">
 
+  <div id="footer">
+    <div id="columnas_pie">
+      <div class="one-third column pie">
+        <h3>Contactos</h3>
+        <p>Teléfono: 699857423</p>
+        <p>Dirección: Albert Capolo, Nº1 (Sevilla)</p>
+        <p>Correo: <a href="mailto:occidente-preferente@mailto.es">Nuestro Correo</a></p>
+      </div>
+      
+      <div class="one-third column pie">
+        <ul class="contact">
+          <li><a href="#"><span><i class="fab fa-twitter"></i></span></a></li>
+          <li class="active"><a href="#"><span><i class="fab fa-facebook-square"></i> </span></a></li>
+          <li><a href="#"><span><i class="fab fa-pinterest-square"></i></span></a></li>
+          <li><a href="#"><span><i class="fab fa-tumblr-square"></i></span></a></li>
+        </ul>
+      </div>
+
+      <div class="one-third column pie">
+        <h3>Contactos</h3>
+        <p>Teléfono: 699857423</p>
+        <p>Dirección: Albert Capolo, Nº1 (Sevilla)</p>
+        <p>Correo: <a href="mailto:occidente-preferente@mailto.es">Nuestro Correo</a></p>
+      </div>
+    </div>
+    
+    <div class="copyright">
+       Occidente Preferente ©
+    </div>
   </div> <!-- End id footer -->
+  </div> <!-- End header -->
 </body>
 
 </html>
