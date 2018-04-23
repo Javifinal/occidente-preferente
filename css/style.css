@@ -92,159 +92,132 @@ h1, h2, h3, h4, h5, h6 {
 /* Cabecera                                                                    */
 /*********************************************************************************/
 
-	.container{
-		width: 100%;
-		max-width: 100%;
-	}
+.container{
+	width: 100%;
+	max-width: 100%;
+}
 
+#header {
+	position: relative;
+	background: url() no-repeat bottom center;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: left;
+}
 
+.header	{
+	background:url('https://png.pngtree.com/thumb_back/fh260/back_pic/00/14/52/9856604197ccc25.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 150px;
+}
 
-	#header {
-		position: relative;
-		background: url() no-repeat bottom center;
-		background-attachment: fixed;
-		background-size: cover;
-		text-align: left;
-	}
-
-		.header	{
-	
-		background:url('https://png.pngtree.com/thumb_back/fh260/back_pic/00/14/52/9856604197ccc25.jpg');
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 150px;
-		
-
-	}
-
-	/*********************************************************************************/
+/*********************************************************************************/
 /* Logo                                                                          */
 /*********************************************************************************/
 
-		#logo{
-			float: left;
-			padding-left: 50px;
-			padding-top: 18px;
-			
-		
-	}
+#logo {
+	float: left;
+	padding-left: 50px;
+	padding-top: 18px;
+}
 	
-		#logo h1, #logo h6{
-			color: black;
-			font-weight: bold;
-	}
+#logo h1, #logo h6{
+	color: black;
+	font-weight: bold;
+}
 	
-		#logo a{
-			display: block;
-			text-decoration: none;
-			font-size: 30px;
-			color: black;
-	}
-		#logo a:hover{
-			
-			color: white;
-			transition: .25s
-	}
+#logo a{
+	display: block;
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+}
 
-		#logo h6:hover{
-			
-			color: white;
-	}
-
-	br {
-
-		font-size: 10px;
-	}
-		
-		
+#logo a:hover{
 	
+	color: white;
+	transition: .25s
+}
+
+#logo h6:hover{
+	color: white;
+}
+
+br {
+	font-size: 10px;
+}
+
 /*********************************************************************************/
 /* Menu                                                                         */
 /*********************************************************************************/
 
-		#nav-wrapper{
-			
-			width: 100%;
-		}
+#nav-wrapper{
+	width: 100%;
+}
 
-		#nav > ul{
-			
-			float: right;
-			padding-top: 35px;
-		}
+#nav > ul{
+	float: right;
+	padding-top: 35px;
+}
 
-		#nav > ul > li
-		{
-			display: inline-block;
-			border-right: 1px solid;
-			border-color: black;
-		}
-		
+#nav > ul > li {
+	display: inline-block;
+	border-right: 1px solid;
+	border-color: black;
+}
 
-		#nav > ul > li > a,
-		#nav > ul > li > span{
-				
-			display: inline-block;
-			padding: 1.5em 1.5em;
-			letter-spacing: 0.06em;
-			text-decoration: none;
-			text-transform: uppercase;
-			font-size: 15px;
-			outline: 0;
-			color: white;
-			font-weight: bold;
 
-			}
+#nav > ul > li > a,
+#nav > ul > li > span {
+	display: inline-block;
+	padding: 1.5em 1.5em;
+	letter-spacing: 0.06em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	outline: 0;
+	color: white;
+	font-weight: bold;
+}
 
-		#nav > ul > li > a:hover{
-
-			color:black;
-			transition: .25s
-			
-			}
+#nav > ul > li > a:hover {
+	color:black;
+	transition: .25s
+}
 			
 /*********************************************************************************/
 /* Slogan                                                                        */
 /*********************************************************************************/
 
-	.slogan{
+.slogan {
+	background-image: url('../img/cdn.jpg'); 
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	height: 500px;
+}
 
-		width: 100%;
-		max-width: 100%;
-		height: 500px;
+#nombre_slogan {
+	text-align: center;
+	padding-top: 100px;
+}
 
-	}
+#nombre_slogan h1 {
+	font-size: 60px;
+	color: #FFFFFF; 
+	text-shadow: 0px 0px 10px #FF7401;
+}
 
-	#nombre_slogan{
-
-		text-align: center;
-		padding-top: 100px;
-		
-		
-	
-	}
-	
-	#nombre_slogan h1{
-
-		font-size: 60px;
-		color: #FFFFFF; 
-		text-shadow: 0px 0px 10px #FF7401;
-		
-		
-	}
-
-	#nombre_slogan h2{
-
-		color: #FFFFFF; 
-		text-shadow: 0px 0px 10px #FF7401;
-		font-size: 50px;
-
-		
-	}
-
+#nombre_slogan h2 {
+	color: #FFFFFF; 
+	text-shadow: 0px 0px 10px #FF7401;
+	font-size: 50px;
+}
 
 /*********************************************************************************/
-/* BODY                                                           */
+/* BODY                                                                          */
 /*********************************************************************************/
 
 #principal-body {
@@ -289,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*********************************************************************************/
-/* ABOUT                                                           */
+/* ABOUT                                                                         */
 /*********************************************************************************/
 
 	.textoabout{
@@ -304,24 +277,6 @@ h1, h2, h3, h4, h5, h6 {
 		text-align: center;
 		color:white;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*********************************************************************************/
 /* FOOTER                                                         */
@@ -431,12 +386,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Larger than mobile */
 @media (max-width: 399px) {
+	#principal-body {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
 	.img-producto {
 		width: auto;
 	}
 }
 
 @media (min-width: 400px) {
+	#principal-body {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
 	.container {
 		width: auto;
 	}
@@ -448,6 +413,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
+
+	#principal-body {
+		margin: 5em;
+	}
+
 	#productos {
 
 	}
@@ -456,12 +426,17 @@ h1, h2, h3, h4, h5, h6 {
 		height: 100%;
 	}
 
+	.img-producto, .desc-producto {
+		margin-left: .5em;
+		margin-right: .5em;
+	}
+
 	.img-producto {
 		width: 100%;
 	}
 
 	.desc-producto {
-		width: 100%;
+
 	}
 }
 
