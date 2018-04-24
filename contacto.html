@@ -31,16 +31,136 @@
 
 </head>
 <body>
-  <div id="header">
 
-  </div> <!-- End id header -->
+  <!-- Header -->
+    <body class="homepage">
+
+  <!-- Header -->
+    <div class="header">
+      <div id="two columns nav-wrapper"> 
+        
+        <div class="container"> 
+        
+            <!-- Logo -->
+            <div id="logo">
+              <h1><a href="#"><img src="img/icono_avion.png" alt="" style="width: 25px; height: 25px;">&nbsp;&nbsp;Occidente-Preferente</a></h1>
+              <p><i>&nbsp;vacaciones de alta gama</i></p>
+              
+            </div>
+
+            <!-- Menu -->
+            <nav id="nav">
+              <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="about.html" target="_blank">Sobre Nosotros</a></li>
+                <li><a href="productos.html" target="_blank">Productos</a></li>
+                <li><a href="galeria.html" target="_blank">Galeria</a></li>
+                <li><a href="contacto.html" target="_blank">Contacto</a></li>
+              </ul>
+            </nav>
+
+        </div>
+
+            <!-- Slogan -->
+  <div class="slogan" style="background-image:url('img/cdn.jpg'); background-size: cover; position: relative;"> 
+          <div id="nombre_slogan">
+              <h1>OCCIDENTE-PREFERENTE</h1>
+              <h5>Haz tus sueños realidad</h5>
+          </div>
+    </div>
+      
+    </div>
 
   <div id="cuerpo_principal">
-    
-  </div> <!-- End id cuerpo_principal -->
-  
-  <div id="footer">
+    <div id="formulario">
+      <form class="form-horizontal " role="form"
+            name="frmContacto" action="inc/accform.php" method="post">
+      <fieldset>
+          <legend>Formulario de contacto</legend>
 
-  </div> <!-- End id footer -->
+          <div class="form-group">
+              <label class="" for="nombre">Nombre:</label>
+              <input class="form-control" 
+                     type="text" id="nombre" name="nombre_txt" 
+                     Placeholder="Nombre de la persona de contacto.">
+          </div>
+
+          <div class="form-group">
+              <label class="" for="email">Email:</label><br>
+              <input class="form-control" 
+                     type="text" id="email" name="email_txt" 
+                     Placeholder="Direccion de correos de respuesta.">
+          </div>
+
+          <div class="form-group">
+              <label class="" for="asunto">Asunto:</label>
+              <input class="form-control" 
+                     type="text" id="asunto" name="asunto_txt" 
+                     Placeholder="Asunto por el que te pones en contacto.">
+          </div>
+
+          <div class="form-group">
+              <label class="" for="comentario">Comentario</label>
+              <textarea class="form-control" 
+                     id="comentario" name="comentario_txa" rows="5" 
+                     Placeholder="Deja tu comentario por el que te pones en contacto."></textarea>
+          </div>
+
+          <div class="container row">
+              <button type="button" class="u-pull-right button button-primary">
+                  <span class="glyphicon glyphicon-envelope"></span> Enviar
+              </button>
+
+              <button type="button" class="u-pull-left">
+                  <span class="glyphicon glyphicon-trash"></span> Limpiar
+              </button>
+          </div>
+
+      </fieldset>
+      </form> <!-- endForm -->
+    </div>
+  </div> <!-- Fin de cuerpo-->
+
+
+  <div id="footer">
+    <div id="columnas_pie">
+       
+          <div class="one-third column pie">
+            
+            <h3>Por email&nbsp;&nbsp;<i class="fas fa-envelope"></i></h3>
+            <p>Contáctanos por email y recibirás una respuesta en 48h si tienes una reserva. En caso contrario, si deseas realizar una reserva llámanos al 902 201 202</p>
+            <p><a href="mailto:occidente-preferente@mailto.es">Envíanos un email</a></p>
+            
+          </div>
+          
+          <div class="one-third column pie">
+           
+            <ul class="contact">
+              <li><a href="#"><span><i class="fab fa-twitter"></i></span></a></li>
+              <li class="active"><a href="#"><span><i class="fab fa-facebook-square"></i> </span></a></li>
+              <li><a href="#"><span><i class="fab fa-pinterest-square"></i></span></a></li>
+              <li><a href="#"><span><i class="fab fa-tumblr-square"></i></span></a></li>
+            </ul>
+
+              <div class="copyright">
+                  Occidente Preferente ©
+              </div>
+             
+          </div>
+           
+           <div class="one-third column pie">
+            
+              <h3>Por teléfono&nbsp;&nbsp;<i class="fas fa-phone"></i></h3>
+              <p>Contacta con nuestro Servicio de Atención al Socio por teléfono al 902 201 202</p>
+              <p>Servicio de 24 horas al día</p>
+            
+            
+          </div>
+
+
+        </div>
+        
+       
+    </div> <!-- End id footer -->
 </body>
 </html>
