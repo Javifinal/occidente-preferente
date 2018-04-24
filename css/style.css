@@ -425,10 +425,18 @@ section {
 }
 
 #formulario {
-	padding-top: 5em;
-	padding-bottom: 5em;
-	padding-left: 15em;
-	padding-right: 15em;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	margin-left: 15em;
+	margin-right: 15em;
+}
+
+#botones > div > button {
+	margin: 0 auto;
+}
+
+#enviar i, #limpiar i {
+	font-size: 14px;
 }
 
 /*********************************************************************************/
@@ -597,6 +605,11 @@ section {
 	.img-producto {
 		width: auto;
 	}
+
+	#formulario {
+		padding: 1em;
+		margin: 0 auto;
+	}
 }
 
 @media (min-width: 400px) {
@@ -606,6 +619,11 @@ section {
 
 	.img-producto {
 		margin-right: 1em;
+	}
+
+	#formulario {
+		padding: 1em;
+		margin: 0 auto;
 	}
 }
 
@@ -635,7 +653,10 @@ section {
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
-
+	#formulario {
+		padding: 1em;
+		max-width: 750px;
+	}
 }
 
 /* Larger than Desktop HD */
