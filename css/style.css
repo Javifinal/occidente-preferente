@@ -384,28 +384,34 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*********************************************************************************/
-/* FOOTER                                                         */
+/* BOTON-TOP                                                     				 */
 /*********************************************************************************/
 .boton-top {
-    text-align: center;
-    transition: .25s;
+  text-align: center;
+
+	
 }
 
 
-.gototop{
-	display:inline-block;
+.gototop {
+
 	width:40px;
 	height:40px;
 	border:2px solid #746c75;
-	text-align: center;
+	padding: 5px;
+
+	
 }
 
 .gototop i {
 	color:#817a82;
-	line-height:35px;
+	line-height:40px;
 }
 
 
+/*********************************************************************************/
+/* FOOTER                                                   					 */
+/*********************************************************************************/
 
 #footer
 	{
