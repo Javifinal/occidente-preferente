@@ -439,6 +439,12 @@ section {
 	font-size: 14px;
 }
 
+#limpiar:hover {
+	background-color: red;
+	color: white;
+	transition: .5s;
+}
+
 /*********************************************************************************/
 /* ABOUT                                                           */
 /*********************************************************************************/
@@ -455,9 +461,6 @@ section {
 		text-align: center;
 		color:white;
 	}
-
-
-
 
 /*********************************************************************************/
 /* BOTON-TOP                                                     				 */
@@ -602,6 +605,10 @@ section {
 
 /* Larger than mobile */
 @media (max-width: 399px) {
+	#nombre_slogan {
+		display: none;
+	}
+
 	.img-producto {
 		width: auto;
 	}
@@ -609,6 +616,15 @@ section {
 	#formulario {
 		padding: 1em;
 		margin: 0 auto;
+	}
+	
+	#botones {
+		
+	}
+
+	#enviar, #limpiar {
+  width: 100%;
+  box-sizing: border-box; 
 	}
 }
 
