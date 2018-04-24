@@ -5,22 +5,22 @@
 /*********************************************************************************/
 
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
-
+		
 /*********************************************************************************/
 /* BASIC                                                           */
 /*********************************************************************************/
 body {
 	margin: 0;
 	padding: 0;
-	background: #161616;
+	background: #FFEBD4;
 }
 
 body, input, textarea, select {
-	font-family: 'Roboto', sans-serif;
+	font-family:'Playfair Display', serif;
 	font-size: 11pt;
 	font-weight: 300;
 	line-height: 1.75em;
-	color: #777;
+	color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -87,11 +87,6 @@ h1, h2, h3, h4, h5, h6 {
 /*********************************************************************************/
 /* HEADER                                                           */
 /*********************************************************************************/
-
-/*********************************************************************************/
-/* Cabecera                                                                    */
-/*********************************************************************************/
-
 	.container{
 		width: 100%;
 		max-width: 100%;
@@ -112,26 +107,30 @@ h1, h2, h3, h4, h5, h6 {
 		background:url('https://png.pngtree.com/thumb_back/fh260/back_pic/00/14/52/9856604197ccc25.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 150px;
+		height: 115px;
+		-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 		
 
 	}
 
-	/*********************************************************************************/
-/* Logo                                                                          */
+/*********************************************************************************/
+/* LOGO                                                                         */
 /*********************************************************************************/
 
-		#logo{
-			float: left;
-			padding-left: 50px;
-			padding-top: 18px;
+	#logo{
 			
-		
+		float: left;
+		padding-left: 50px;
+		padding-top: 18px;
+			
 	}
 	
-		#logo h1, #logo h6{
+		#logo h1{
 			color: black;
 			font-weight: bold;
+
 	}
 	
 		#logo a{
@@ -146,20 +145,18 @@ h1, h2, h3, h4, h5, h6 {
 			transition: .25s
 	}
 
-		#logo h6:hover{
-			
-			color: white;
-	}
+		#logo p{
 
-	br {
+			color: black;
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 0;
 
-		font-size: 10px;
-	}
-		
-		
-	
+		}
+
+
 /*********************************************************************************/
-/* Menu                                                                         */
+/* MENU                                                                   */
 /*********************************************************************************/
 
 		#nav-wrapper{
@@ -170,11 +167,11 @@ h1, h2, h3, h4, h5, h6 {
 		#nav > ul{
 			
 			float: right;
-			padding-top: 35px;
+			padding-top: 25px;
 		}
 
-		#nav > ul > li
-		{
+		#nav > ul > li{
+			
 			display: inline-block;
 			border-right: 1px solid;
 			border-color: black;
@@ -193,18 +190,20 @@ h1, h2, h3, h4, h5, h6 {
 			outline: 0;
 			color: white;
 			font-weight: bold;
+			text-shadow: -1px 0 #0e7a0e, 1px 0 #0e7a0e, 0 1px #0e7a0e, 0 -1px #0e7a0e;
 
-			}
+
+		}
 
 		#nav > ul > li > a:hover{
 
 			color:black;
 			transition: .25s
 			
-			}
+		}
 			
 /*********************************************************************************/
-/* Slogan                                                                        */
+/* SLOGAN                                                               */
 /*********************************************************************************/
 
 	.slogan{
@@ -215,37 +214,113 @@ h1, h2, h3, h4, h5, h6 {
 
 	}
 
-	#nombre_slogan{
+		#nombre_slogan{
 
-		text-align: center;
-		padding-top: 100px;
-		
-		
-	
+			text-align: center;
+			padding-top: 100px;
 	}
 	
-	#nombre_slogan h1{
+		#nombre_slogan h1{
 
-		font-size: 60px;
-		color: #FFFFFF; 
-		text-shadow: 0px 0px 10px #FF7401;
+			font-size: 60px;
+			color: #FFFFFF; 
+			text-shadow: 0px 0px 10px #FF7401;
+			background-color: black;
+			width: 750px;
+			text-align: center;
+			margin-left: 300px;
+			border-radius: 5%;
+			border-style: outset;
 		
-		
+			
 	}
 
-	#nombre_slogan h2{
+		#nombre_slogan h5{
 
-		color: #FFFFFF; 
-		text-shadow: 0px 0px 10px #FF7401;
-		font-size: 50px;
-
+			color: #FFFFFF; 
+			text-shadow: 0px 0px 10px black;
+			font-size: 40px;
+			line-height: 0;
 		
 	}
 
 
 /*********************************************************************************/
-/* BODY                                                           */
+/* CUERPO PRINCIPAL - (PREESLOGAN)                                                         */
 /*********************************************************************************/
+
+#slogan h1{  
+
+	text-align: center;
+	color:#725028;
+	text-shadow: 5px 5px 5px #aaa;
+	font-family:'Playfair Display', serif;
+	padding-top: 50px;
+
+}
+
+
+#slogan p{
+
+	text-align: center;
+	font-weight: bold;
+	font-family:'Playfair Display', serif;	
+}
+
+
+
+/*********************************************************************************/
+/* PRESTACIONES                                                       */
+/*********************************************************************************/
+
+
+#prestaciones {
+
+	margin-left: 30px;
+}
+
+#prestaciones h3 {
+
+	font-size: 30px;
+	text-align: center;
+}
+
+#prestaciones i {
+
+	font-size: 20px;
+}
+
+#prestaciones p {
+
+	text-align: center;
+}
+
+.button.button-primary{
+
+	background-color: grey;
+	border-color: black;
+	color:white;
+	margin-top: 70px;
+	margin-left: 100px;
+
+
+}
+
+.button.button-primary:hover{
+
+	background-color: #FFC989;
+	border-color: black;
+	transition-duration: .25s;
+	
+}
+
+.u-full-width{
+
+	padding-top: 200px;
+
+}
+
+
 
 #principal-body {
 	overflow: auto;
@@ -308,24 +383,29 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*********************************************************************************/
 /* FOOTER                                                         */
 /*********************************************************************************/
+.boton-top {
+    text-align: center;
+    transition: .25s;
+}
+
+
+.gototop{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	border:2px solid #746c75;
+	text-align: center;
+}
+
+.gototop i {
+	color:#817a82;
+	line-height:35px;
+}
+
+
 
 #footer
 	{
@@ -335,7 +415,10 @@ h1, h2, h3, h4, h5, h6 {
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 100%;
-		height: 300px;
+		height: 240px;
+		-webkit-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
 	}
 .container h2{
 	font-size: 40px;
@@ -346,10 +429,10 @@ h1, h2, h3, h4, h5, h6 {
 	color: white;
 }
 .pie > h3{
-	color: #2E2EFE;
+	color: white;
 	font-size: 30px;
 	font-weight: bold;
-	text-shadow: 0px 0px 10px #BF00FF;
+	text-shadow: 0px 0px 10px #FFC469;
 }
 .pie > p{
 	color: white;
@@ -364,6 +447,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .pie{
 	padding-top: 50px;
+}
+
+.copyright{
+
+	text-align: center;
+	padding-top: 80px;
 }
 /*********************************************************************************/
 /* Social Iconos                                                           */
