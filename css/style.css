@@ -382,10 +382,6 @@ section {
 /* PRODUCTO                                                      				 */
 /*********************************************************************************/
 
-.productpage{
-	background-color: #AFCAFF	;
-}
-
 #principal-body {
 	overflow: auto;
 	padding-left: .5em;
@@ -409,7 +405,7 @@ section {
 
 
 .producto {
-	background-color: #F0FDFF;
+	background-color: #DFE2FE;
 	padding-left: .5em;
 	padding-right: .5em;
 	padding-top: 20px;
