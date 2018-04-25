@@ -686,8 +686,9 @@ section {
 /* CONTACTO-STYLE                                                   		 */
 /*********************************************************************************/
 
-.contactpage{
+.contactpage body{
 	background-color: #F8F8F8;
+	font-family: 'Playfair Display', serif;
 }
 
 #nombre_slogan h4 {
