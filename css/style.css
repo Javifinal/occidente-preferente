@@ -84,67 +84,6 @@ h1, h2, h3, h4, h5, h6 {
 		margin-bottom: 1em;
 	}
 
-/* -------------------------------------------------------------- */
-/* Maquetado del formulario (Nota: las siguientes etiquetas lo mismo desaparecen) */
-/* -------------------------------------------------------------- */
-form {
-	width: 100%;
-	/* max-width: 100em; */
-	margin: .25em;
-}
-
-input[type="email"], input[type="text"], textarea {
-	padding: .25em;
-	width: 100%;
-	border-radius: .25em;
-	font-family: "chalet";
-	font-size: 1em;
-	background: $textbox-background; /* background: #eee; */
-	color: $textbox-color; /* color: #f60; */
-}
-
-input[type="email"]:focus, input[type="text"]:focus, textarea:focus {
-	background: $textbox-focus; /* background: #c6ecf9; */
-}
-
-input[type="submit"] {	
-	border-radius: 0 .25em;
-	font-family: "chalet";
-	font-size: 1.25em;
-	background: $botton-background; /* background: #024959; #f90; */
-	color: $botton-color; /* color: #fff; */
-}
-
-input[type="submit"]:hover {
-	border-radius: .25em 0;
-	cursor: pointer;
-	background: $botton-hover; /* background: #037e8c; #7bbfd5; */
-	/* color: #fff; /*
-	color: #000; */
-}
-
-label {
-	cursor: pointer;
-	color: $label-color;
-}
-
-legend {
-	font-size: 1.2em;
-	font-weight: bold;
-	color: $legend-color;
-}
-
-textarea {
-	resize: none;
-}
-
-section {
-    padding: 0em;
-    margin: 0em auto;
-    /* text-align: right; */
-	background: $color-blanco;
-}
-
 /*********************************************************************************/
 /* HEADER                                                           */
 /*********************************************************************************/
@@ -283,18 +222,22 @@ section {
 	
 		#nombre_slogan h1{
 
-			font-size: 70px;
-			opacity: 0.8;
-			color: #FFF0DF; 
-			width: 100%;
+			font-size: 60px;
+			color: #FFFFFF; 
+			text-shadow: 0px 0px 10px #FF7401;
+			background-color: black;
+			width: 750px;
 			text-align: center;
-				
+			margin-left: 300px;
+			border-radius: 5%;
+			border-style: outset;
+		
+			
 	}
 
 		#nombre_slogan h5{
 
-			opacity: 0.8;
-			color: #FFF0DF; 
+			color: #FFFFFF; 
 			text-shadow: 0px 0px 10px black;
 			font-size: 40px;
 			line-height: 0;
@@ -378,67 +321,38 @@ section {
 
 }
 
-/*********************************************************************************/
-/* PRODUCTO                                                      				 */
-/*********************************************************************************/
+
 
 #principal-body {
 	overflow: auto;
 	padding-left: .5em;
 	padding-right: .5em;
-	padding-top: 50px;
 }
-
-#principal-body h3, #principal-body p {
-	text-align: center;
-	color:black;
-
-}
-
-#productos{
-
-	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
 
 .producto {
-	background-color: #DFE2FE;
+	background-color: cyan;
+	border: 1px solid black;
 	padding-left: .5em;
 	padding-right: .5em;
-	padding-top: 20px;
-	-webkit-box-shadow: 10px 10px 5px -5px rgba(156,156,156,1);
-	-moz-box-shadow: 10px 10px 5px -5px rgba(156,156,156,1);
-	box-shadow: 10px 10px 5px -5px rgba(156,156,156,1);
-
 }
 
 .producto > h5 {
 	text-align: center;
-	color: black;
 }
 
 .producto > div {
 	margin-left: 0;
 	margin-right: 0;
-	padding-left: 10px;
-	padding-right: 10px;
-
 }
 
 .img-producto, .desc-producto {
 	margin-left: .5em;
 	margin-right: .5em;
-
 }
 
 .img-producto {
 	box-sizing: border-box;
-	width: 33%;
-
-
+	width: 33%; 
 }
 
 .img-producto > img {
@@ -449,26 +363,6 @@ section {
 	text-align: justify;
 }
 
-#formulario {
-	margin-top: 5em;
-	margin-bottom: 5em;
-	margin-left: 15em;
-	margin-right: 15em;
-}
-
-#botones > div > button {
-	margin: 0 auto;
-}
-
-#enviar i, #limpiar i {
-	font-size: 14px;
-}
-
-#limpiar:hover {
-	background-color: red;
-	color: white;
-	transition: .5s;
-}
 
 /*********************************************************************************/
 /* ABOUT                                                           */
@@ -486,6 +380,9 @@ section {
 		text-align: center;
 		color:white;
 	}
+
+
+
 
 /*********************************************************************************/
 /* BOTON-TOP                                                     				 */
@@ -565,7 +462,7 @@ section {
 	padding-top: 80px;
 }
 /*********************************************************************************/
-/* ICONOS FOOTER                                                          		 */
+/* Social Iconos                                                           */
 /*********************************************************************************/
 	  .contact{
 		clear: both;
@@ -630,27 +527,8 @@ section {
 
 /* Larger than mobile */
 @media (max-width: 399px) {
-	#nombre_slogan {
-		display: none;
-	}
-
-
 	.img-producto {
 		width: auto;
-	}
-
-	#formulario {
-		padding: 1em;
-		margin: 0 auto;
-	}
-	
-	#botones {
-		
-	}
-
-	#enviar, #limpiar {
-  width: 100%;
-  box-sizing: border-box; 
 	}
 }
 
@@ -661,11 +539,6 @@ section {
 
 	.img-producto {
 		margin-right: 1em;
-	}
-
-	#formulario {
-		padding: 1em;
-		margin: 0 auto;
 	}
 }
 
@@ -690,10 +563,7 @@ section {
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-	#formulario {
-		padding: 1em;
-		max-width: 750px;
-	}
+
 }
 
 /* Larger than desktop */
@@ -705,47 +575,3 @@ section {
 @media (min-width: 1200px) {
 
 }
-
-
-/*********************************************************************************/
-/* CONTACTO-STYLE                                                   		 */
-/*********************************************************************************/
-
-.contactpage{
-	background-color: #F8F8F8;
-	
-}
-
-#nombre_slogan h4 {
-background: #000000;
--webkit-background-clip: text;
--moz-background-clip: text;
-background-clip: text;
-color: transparent;
-text-shadow: 0px 3px 3px rgba(255,255,255,0.5),0px -1px 1px rgba(0,0,0,.3);
-font-size: 70px;
-
-	}
-
-#nombre_slogan h6 {
-background: #000000;
--webkit-background-clip: text;
--moz-background-clip: text;
-background-clip: text;
-color: transparent;
-text-shadow: 0px 3px 3px rgba(255,255,255,0.5),0px -1px 1px rgba(0,0,0,.3);
-font-size: 50px;
-
-	}
-
-#nombre_slogan p i{
-background: #000000;
--webkit-background-clip: text;
--moz-background-clip: text;
-background-clip: text;
-color: transparent;
-text-shadow: 0px 3px 3px rgba(255,255,255,0.5),0px -1px 1px rgba(0,0,0,.3);
-font-size: 50px;
-
-	}
-
