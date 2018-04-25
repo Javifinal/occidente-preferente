@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  
   <meta charset="utf-8" >
   <title>Occidente Preferente</title>
   <meta name="description" content="Página desarrollada en equipo dentro del curso de Desarrollo Web" >
@@ -13,34 +12,260 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css" -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css" >
   <link rel="stylesheet" href="css/skeleton.css" >
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="css/footer.css"/> <!-- Hay que borrar esta linea -->
-  <link rel="stylesheet" href="css/estilocabecera.css"> <!-- Hay que borrar esta linea -->
   <link rel="stylesheet" href="css/style.css" >
+  <link rel="stylesheet" href="css/galeria.css" >
  
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="icon" type="image/png" href="img/icono_avion.png">
 
 </head>
-<body>
-	<div id="header">
 
-	</div> <!-- End id header -->
+ <!-- Header -->
+    <body class="productpage" style="background-image: url('img/fondogaleria.jpg');background-size: cover;">
 
-	<div id="cuerpo_principal">
+  <div class="header">
+    <div id="two columns nav-wrapper">
+      
+      <div class="container"> 
+
+        <!-- Logo -->
+        <div id="logo">
+          <h1><a href="index.html"><img src="img/icono_avion.png" alt="" style="width: 25px; height: 25px;">&nbsp;&nbsp;Occidente-Preferente</a></h1>
+              <p><i>&nbsp;vacaciones de alta gama</i></p>
+        
+        </div>
+
+        <!-- Menu -->
+        <nav id="nav">
+          <ul>
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="about.html">Sobre Nosotros</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+
+	<!--</div>  End id header -->
+
+	<!-- cuerpo_principal -->
+
+  <!-- fotos pequeñas -->
+  
+  <ul class="galeria" >
+    <li class="zoom"><a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Descripci%C3%B3n-de-paisajes..jpg"></a></li>
+   
+    <li class="zoom"><a href="#img2"><img src="http://www.paisajesimagenes.com/wp-content/uploads/fotos-de-paisajes-hermosos-de-la-naturaleza.jpg"></a></li>
+   
+    <li class="zoom"><a href="#img3"><img src="http://www.paisajesimagenes.com/wp-content/uploads/fotos-de-Paisajes-hermosos-de-la-naturaleza..jpg"></a></li>
+   
+    <li class="zoom"><a href="#img4"><img src="http://www.paisajesimagenes.com/wp-content/uploads/fotos-de-paisajes-de-rusia.jpg"></a></li>
+  </ul>
+
+  <ul class="galeria" >
+    <li class="zoom"><a href="#img5"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-de-noruega..jpg"></a></li>
+   
+    <li class="zoom"><a href="#img6"><img src="http://www.paisajesimagenes.com/wp-content/uploads/paisajes-en-noruega.jpg"></a></li>
+   
+    <li class="zoom"><a href="#img7"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Impresionante-paisaje-de-per%C3%BA.jpg"></a></li>
+   
+    <li class="zoom"><a href="#img8"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-%C3%81rabes.jpg"></a></li>
+    </ul>
+
+    <ul class="galeria" >
+    <li class="zoom"><a href="#img9"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-hermosos-para-visitar-3.jpg"></a></li>
+   
+    <li class="zoom"><a href="#img10"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-naturales.jpg"></a></li>
+   
+    <li class="zoom"><a href="#img11"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-asombrosos-im%C3%A1genes.jpg"></a></li>
+   
+    <li class="zoom"><a href="#img12"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-asombrosos.jpg"></a></li>
+    </ul>
+
+ <!--  fin fotos pequeñas -->
+
+  <div class="modal" id="img1">
+    <h3>Paisaje 1</h3>
+    <div class="imagen">
+      <a href="#img8">&#60;</a>
+      <a href="#img2"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Descripci%C3%B3n-de-paisajes..jpg"></a>
+      <a href="#img2">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+  <div class="modal" id="img2">
+    <h3>Paisaje 2</h3>
+    <div class="imagen">
+      <a href="#img1">&#60;</a>
+      <a href="#img3"><img src="http://www.paisajesimagenes.com/wp-content/uploads/fotos-de-paisajes-hermosos-de-la-naturaleza.jpg"></a>
+      <a href="#img3">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+  <div class="modal" id="img3">
+    <h3>Paisaje 3</h3>
+    <div class="imagen">
+      <a href="#img2">&#60;</a>
+      <a href="#img4"><img src="http://www.paisajesimagenes.com/wp-content/uploads/fotos-de-Paisajes-hermosos-de-la-naturaleza..jpg"></a>
+      <a href="#img4">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+  <div class="modal" id="img4">
+    <h3>Paisaje 4</h3>
+    <div class="imagen">
+      <a href="#img3">&#60;</a>
+      <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/fotos-de-paisajes-de-rusia.jpg"></a>
+      <a href="#img5">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+  <div class="modal" id="img5">
+    <h3>Paisaje 5</h3>
+    <div class="imagen">
+      <a href="#img4">&#60;</a>
+      <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-de-noruega..jpg"></a>
+      <a href="#img6">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+  <div class="modal" id="img6">
+    <h3>Paisaje 6</h3>
+    <div class="imagen">
+      <a href="#img5">&#60;</a>
+      <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/paisajes-en-noruega.jpg"></a>
+      <a href="#img7">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+  <div class="modal" id="img7">
+    <h3>Paisaje 7</h3>
+    <div class="imagen">
+      <a href="#img6">&#60;</a>
+      <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Impresionante-paisaje-de-per%C3%BA.jpg"></a>
+      <a href="#img8">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+  <div class="modal" id="img8">
+    <h3>Paisaje 8</h3>
+    <div class="imagen">
+      <a href="#img7">&#60;</a>
+      <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-%C3%81rabes.jpg"></a>
+      <a href="#img9">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+  <div class="modal" id="img9">
+    <h3>Paisaje 9</h3>
+    <div class="imagen">
+      <a href="#img8">&#60;</a>
+      <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-hermosos-para-visitar-3.jpg"></a>
+      <a href="#img10">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+  <div class="modal" id="img10">
+    <h3>Paisaje 10</h3>
+    <div class="imagen">
+      <a href="#img9">&#60;</a>
+      <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-naturales.jpg"></a>
+      <a href="#img11">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+  <div class="modal" id="img11">
+    <h3>Paisaje 11</h3>
+    <div class="imagen">
+      <a href="#img10">&#60;</a>
+      <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-asombrosos-im%C3%A1genes.jpg"></a>
+      <a href="#img12">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+  <div class="modal" id="img12">
+    <h3>Paisaje 12</h3>
+    <div class="imagen">
+      <a href="#img11">&#60;</a>
+      <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-asombrosos.jpg"></a>
+      <a href="#img12">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+
+
+
+
+
+<!-- End id cuerpo_principal -->
+
+   
+
+  
+
 		
-	</div> <!-- End id cuerpo_principal -->
-	
-	<div id="footer">
+	< <div id="footer">
+    <div id="columnas_pie">
+       
+          <div class="one-third column pie">
+            
+            <h3>Por email&nbsp;&nbsp;<i class="fas fa-envelope"></i></h3>
+            <p>Contáctanos por email y recibirás una respuesta en 48h si tienes una reserva. En caso contrario, si deseas realizar una reserva llámanos al 902 201 202</p>
+            <p><a href="mailto:occidente-preferente@mailto.es">Envíanos un email</a></p>
+            
+          </div>
+          
+          <div class="one-third column pie">
+           
+            <ul class="contact">
+              <li><a href="#"><span><i class="fab fa-twitter"></i></span></a></li>
+              <li class="active"><a href="#"><span><i class="fab fa-facebook-square"></i> </span></a></li>
+              <li><a href="#"><span><i class="fab fa-pinterest-square"></i></span></a></li>
+              <li><a href="#"><span><i class="fab fa-tumblr-square"></i></span></a></li>
+            </ul>
 
-	</div> <!-- End id footer -->
+              <div class="copyright">
+                  Occidente Preferente ©
+              </div>
+             
+          </div>
+           
+           <div class="one-third column pie">
+            
+              <h3>Por teléfono&nbsp;&nbsp;<i class="fas fa-phone"></i></h3>
+              <p>Contacta con nuestro Servicio de Atención al Socio por teléfono al 902 201 202</p>
+              <p>Servicio de 24 horas al día</p>
+            
+            
+          </div>
+
+
+        </div>
+        
+       
+    </div>
+  </div> <!-- End header -->
 </body>
 </html>
