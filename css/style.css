@@ -206,6 +206,12 @@ section {
 			transition: .25s
 	}
 
+		#logo > h1 > a > img {
+
+			width: 25px;
+			height: 25px;
+		}
+
 		#logo p{
 
 			color: black;
@@ -378,6 +384,9 @@ section {
 
 }
 
+
+
+
 /*********************************************************************************/
 /* PRODUCTO                                                      				 */
 /*********************************************************************************/
@@ -474,18 +483,305 @@ section {
 /* ABOUT                                                           */
 /*********************************************************************************/
 
-	.textoabout{
+.aboutpage{
+
+	background-image: url('../img/textura_gris.jpg');
+	
+}
+
+
+.textoabout{
 	margin: 0 auto;
 	width: 100%;
 	height: 800px;
 
-	}
+}
 
-	.titulo h2{
+.titulo h2{
 
-		text-align: center;
-		color:white;
-	}
+	text-align: center;
+	color:white;
+}
+
+.cabeceraAbout{
+	background-image: url('../img/equipo.jpg');
+	width: 100%;
+	max-width: 100%;
+	height: 500px;
+	margin-top: 5px;
+	background-size: cover;
+	-webkit-box-shadow: -1px 8px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 8px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: -1px 8px 5px -3px rgba(0,0,0,0.75);
+}
+.cabeceraAbout > h1{
+	
+	text-align: left;
+	padding-top: 100px;
+	padding-left: 40px;
+	font-size: 70px;
+	text-shadow: 0px 0px 10px black;
+	color: white;
+}	
+
+.cabeceraAbout > p{
+	
+	text-align: left;
+	padding-left: 50px;
+	font-size: 30px;
+	text-shadow: 0px 0px 10px black;
+	color: white;
+}	
+
+.containerAbout{
+	padding-top: 50px;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 70%;	
+	background-color: #F4F6F6;
+	-webkit-box-shadow: 10px 10px 5px -5px rgba(156,156,156,1);
+	-moz-box-shadow: 10px 10px 5px -5px rgba(156,156,156,1);
+	box-shadow: 10px 10px 5px -5px rgba(156,156,156,1);
+}
+.row{
+	margin-left: 100px;
+
+}
+
+.imagen > figure > p > img{
+	width: 200px;
+	height: 220px;
+	border-radius: 15%;
+	
+}
+
+.texto > p{
+	width: 80%;
+	height: 220px;
+	text-align: justify;
+}
+
+.texto2 > h2{
+	
+	text-align: right;
+	
+}	
+
+.texto2 > p{
+	width: 100%;
+	height: 220px;
+	text-align: justify;
+	
+}	
+
+.imagen2 > figure > p > img{
+	width: 190px;
+	height: 220px;
+}
+
+.imghvr-push-up {
+	text-align: center;
+
+}
+
+.imghvr-push-up a{
+	text-align: center;
+	margin-top: 190px;
+	text-decoration: none;
+	color:black;
+}
+.imghvr-push-up a:hover{
+	color:white;	
+}
+
+
+.social-icons > a{
+	margin-right: 5px;
+}
+
+
+.social-icons a i{
+
+	font-size: 25px;
+	color:#35A2A2;
+	padding-right: 10px;
+}
+
+.social-icons a i:hover{
+
+	color:#FF7108;
+	transition: .25s;
+
+}
+
+/*********************************************************************************/
+/* GALERIA                                                     				     */
+/*********************************************************************************/
+
+.galerypage{
+	background-image: url('../img/textura_galery.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+.cabeceraGalery{
+	background-image: url('../img/galeria_fondo.jpg');
+	width: 100%;
+	max-width: 100%;
+	height: 500px;
+	margin-top: 5px;
+	background-size: cover;
+	-webkit-box-shadow: -1px 8px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 8px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: -1px 8px 5px -3px rgba(0,0,0,0.75);
+}
+
+.cabeceraGalery h1{
+	text-align: center;
+	padding-top: 100px;
+	color:white;
+	line-height: 0;
+	font-size: 60px;
+
+}
+
+.textoGalery{
+	padding-top: 50px;
+}
+.textoGalery h3, p{
+	text-align: center;
+	color:#725028;
+
+}
+.textoGalery p{
+	font-size: 18px;
+
+
+}
+
+.galeria {
+  width: 90%;
+  margin: auto;
+  list-style: none;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.galeria li {
+  margin: 5px;
+
+}
+
+.galeria img {
+	margin-top: 20px;
+  	width: 190px;
+  	height: 130px;
+  	border-radius: 15px;
+  	border:1px solid white;
+  	-webkit-box-shadow: 4px 7px 24px 0px rgba(168,168,168,1);
+-moz-box-shadow: 4px 7px 24px 0px rgba(168,168,168,1);
+box-shadow: 4px 7px 24px 0px rgba(168,168,168,1);
+}
+
+.zoom{
+        /* Aumentamos la anchura y altura durante 1 segundos */
+        transition: width 1s, height 1s, transform 1s;
+        -moz-transition: width 1s, height 1s, -moz-transform 1s;
+        -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+        -o-transition: width 1s, height 1s,-o-transform 1s;
+    }
+.zoom:hover{
+        /* tranformamos el elemento al pasar el mouse por encima al doble de
+           su tamaño con scale(1.5). */
+        transform : scale(1.5);
+        -moz-transform : scale(1.5);      /* Firefox */
+        -webkit-transform : scale(1.5);   /* Chrome - Safari */
+        -o-transform : scale(1.5);        /* Opera */
+
+    }
+
+    
+/*Estilos del modal*/
+
+.modal {
+  display: none;
+}
+
+.modal:target {
+  
+  display: block;
+  position: fixed;
+  background: rgba(0,0,0,0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal h3 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.imagen_gal {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen_gal a {
+  color: #FF8000;
+  font-size: 40px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.imagen_gal a:nth-child(2) {
+  margin: 0;
+  height: 100%;
+  flex-shrink: 2;
+}
+
+.imagen_gal img {
+  width: 500px;
+  height: 100%;
+  max-width: 100%;
+  border: 7px solid #FF8000;
+  box-sizing: border-box;
+}
+
+
+
+.cerrar {
+  display: block;
+  background: #fff;
+  width: 25px;
+  height: 25px;
+  margin: 15px auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  padding: 5px;
+  border-radius: 50%;
+  line-height: 25px;
+}
+
+.cerrar:hover {
+	text-decoration: none;
+	color:red;
+}
+
 
 /*********************************************************************************/
 /* BOTON-TOP                                                     				 */
@@ -748,4 +1044,6 @@ text-shadow: 0px 3px 3px rgba(255,255,255,0.5),0px -1px 1px rgba(0,0,0,.3);
 font-size: 50px;
 
 	}
+
+
 

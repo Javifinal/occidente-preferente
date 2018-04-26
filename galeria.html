@@ -12,7 +12,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
 
   <!-- CSS
@@ -29,41 +29,63 @@
 </head>
 
  <!-- Header -->
-    <body class="productpage" style="background-image: url('img/fondogaleria.jpg');background-size: cover;">
+    <body class="galerypage">
 
-  <div class="header">
-    <div id="two columns nav-wrapper">
+ <!-- Header -->
+    <div class="header">
       
-      <div class="container"> 
-
-        <!-- Logo -->
-        <div id="logo">
-          <h1><a href="index.html"><img src="img/icono_avion.png" alt="" style="width: 25px; height: 25px;">&nbsp;&nbsp;Occidente-Preferente</a></h1>
-              <p><i>&nbsp;vacaciones de alta gama</i></p>
+      <div id="nav-wrapper"> 
         
-        </div>
-
-        <!-- Menu -->
-        <nav id="nav">
-          <ul>
-            <li><a href="index.html">Principal</a></li>
-            <li><a href="about.html">Sobre Nosotros</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="galeria.html">Galeria</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
+      <div class="four columns container"> 
+        
+            <!-- Logo -->
+            <div id="logo">
+              <h1><a href="index.html"><img src="img/icono_avion.png" alt="">&nbsp;&nbsp;Occidente-Preferente</a></h1>
+              <p><i>&nbsp;vacaciones de alta gama</i></p>
+              
+            </div>
       </div>
+           
+            <!-- Menu -->
+    <div class="eight columns menu">
+            
+            <nav id="nav">
+              <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+              </ul>
+            </nav>
+    </div>
 
-
-
-	<!--</div>  End id header -->
-
-	<!-- cuerpo_principal -->
-
-  <!-- fotos pequeñas -->
+    </div>
   
-  <ul class="galeria" >
+  </div>
+
+	<!--End id header -->
+
+  <div class="cabeceraGalery">
+    
+    <h1>RECORRE | EL MUNDO</h1>
+    
+    <h1>DESCUBRE | SIN LIMITES</h1>
+  
+</div>
+
+  <!-- GALERIA CON MODAL -->
+
+    <div class="textoGalery">
+    
+    <h3>FOTOS ENVIADAS POR NUESTROS CLIENTES</h3>
+    <p>Fotos de nuestro trabajo enviadas por clientes satisfechos.</p>
+    
+    
+  
+</div>
+  
+  <ul class="galeria" id="top">
     <li class="zoom"><a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Descripci%C3%B3n-de-paisajes..jpg"></a></li>
    
     <li class="zoom"><a href="#img2"><img src="http://www.paisajesimagenes.com/wp-content/uploads/fotos-de-paisajes-hermosos-de-la-naturaleza.jpg"></a></li>
@@ -97,133 +119,127 @@
 
   <div class="modal" id="img1">
     <h3>Paisaje 1</h3>
-    <div class="imagen">
+    <div class="imagen_gal">
       <a href="#img8">&#60;</a>
       <a href="#img2"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Descripci%C3%B3n-de-paisajes..jpg"></a>
       <a href="#img2">></a>
     </div>
-    <a class="cerrar" href="">X</a>
+    <a class="cerrar" href="#top">X</a>
   </div>
   
   <div class="modal" id="img2">
     <h3>Paisaje 2</h3>
-    <div class="imagen">
+    <div class="imagen_gal">
       <a href="#img1">&#60;</a>
       <a href="#img3"><img src="http://www.paisajesimagenes.com/wp-content/uploads/fotos-de-paisajes-hermosos-de-la-naturaleza.jpg"></a>
       <a href="#img3">></a>
     </div>
-    <a class="cerrar" href="">X</a>
+    <a class="cerrar" href="#top">X</a>
   </div>
   
   <div class="modal" id="img3">
     <h3>Paisaje 3</h3>
-    <div class="imagen">
+    <div class="imagen_gal">
       <a href="#img2">&#60;</a>
       <a href="#img4"><img src="http://www.paisajesimagenes.com/wp-content/uploads/fotos-de-Paisajes-hermosos-de-la-naturaleza..jpg"></a>
       <a href="#img4">></a>
     </div>
-    <a class="cerrar" href="">X</a>
+    <a class="cerrar" href="#top">X</a>
   </div>
   
   <div class="modal" id="img4">
     <h3>Paisaje 4</h3>
-    <div class="imagen">
+    <div class="imagen_gal">
       <a href="#img3">&#60;</a>
       <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/fotos-de-paisajes-de-rusia.jpg"></a>
       <a href="#img5">></a>
     </div>
-    <a class="cerrar" href="">X</a>
+    <a class="cerrar" href="#top">X</a>
   </div>
 
   <div class="modal" id="img5">
     <h3>Paisaje 5</h3>
-    <div class="imagen">
+    <div class="imagen_gal">
       <a href="#img4">&#60;</a>
       <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-de-noruega..jpg"></a>
       <a href="#img6">></a>
     </div>
-    <a class="cerrar" href="">X</a>
+    <a class="cerrar" href="#top">X</a>
   </div>
 
   <div class="modal" id="img6">
     <h3>Paisaje 6</h3>
-    <div class="imagen">
+    <div class="imagen_gal">
       <a href="#img5">&#60;</a>
       <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/paisajes-en-noruega.jpg"></a>
       <a href="#img7">></a>
     </div>
-    <a class="cerrar" href="">X</a>
+    <a class="cerrar" href="#top">X</a>
   </div>
 
   <div class="modal" id="img7">
     <h3>Paisaje 7</h3>
-    <div class="imagen">
+    <div class="imagen_gal">
       <a href="#img6">&#60;</a>
       <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Impresionante-paisaje-de-per%C3%BA.jpg"></a>
       <a href="#img8">></a>
     </div>
-    <a class="cerrar" href="">X</a>
+    <a class="cerrar" href="#top">X</a>
   </div>
 
   <div class="modal" id="img8">
     <h3>Paisaje 8</h3>
-    <div class="imagen">
+    <div class="imagen_gal">
       <a href="#img7">&#60;</a>
       <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-%C3%81rabes.jpg"></a>
       <a href="#img9">></a>
     </div>
-    <a class="cerrar" href="">X</a>
+    <a class="cerrar" href="#top">X</a>
   </div>
 
   <div class="modal" id="img9">
     <h3>Paisaje 9</h3>
-    <div class="imagen">
+    <div class="imagen_gal">
       <a href="#img8">&#60;</a>
       <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-hermosos-para-visitar-3.jpg"></a>
       <a href="#img10">></a>
     </div>
-    <a class="cerrar" href="">X</a>
+    <a class="cerrar" href="#top">X</a>
   </div>
 
   <div class="modal" id="img10">
     <h3>Paisaje 10</h3>
-    <div class="imagen">
+    <div class="imagen_gal">
       <a href="#img9">&#60;</a>
       <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-naturales.jpg"></a>
       <a href="#img11">></a>
     </div>
-    <a class="cerrar" href="">X</a>
+    <a class="cerrar" href="#top">X</a>
   </div>
 
   <div class="modal" id="img11">
     <h3>Paisaje 11</h3>
-    <div class="imagen">
+    <div class="imagen_gal">
       <a href="#img10">&#60;</a>
       <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-asombrosos-im%C3%A1genes.jpg"></a>
       <a href="#img12">></a>
     </div>
-    <a class="cerrar" href="">X</a>
+    <a class="cerrar" href="#top">X</a>
   </div>
 
   <div class="modal" id="img12">
     <h3>Paisaje 12</h3>
-    <div class="imagen">
+    <div class="imagen_gal">
       <a href="#img11">&#60;</a>
       <a href="#img1"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Paisajes-asombrosos.jpg"></a>
       <a href="#img12">></a>
     </div>
-    <a class="cerrar" href="">X</a>
+    <a class="cerrar" href="#top">X</a>
   </div>
-
-
-
-
+<br>
+  <p class="boton-top"><a href="about.html" class="gototop"><i class="fa fa-chevron-up fa-2"></i></a></p>
 
 <!-- End id cuerpo_principal -->
-
-   
-
-  
 
 		
 	< <div id="footer">
